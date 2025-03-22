@@ -1,36 +1,71 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<p align="center"><img src="https://raw.githubusercontent.com/danisec/assets/refs/heads/main/images/portofolio-wisnuprawira/preview-portofolio-wisnuprawira.png" width="auto" height="auto" alt="Portofolio Preview"></p>
 
-## Getting Started
+# Portofolio Wisnu Prawira
 
-First, run the development server:
+Portofolio wisnu prawira created with NextJS v15 and TailwindCSS v4.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Table of Contents
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- [Requirements](#requirements)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Requirements
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Node.js
+- PNPM
 
-## Learn More
+## Installation
 
-To learn more about Next.js, take a look at the following resources:
+Follow these steps to set up the project:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/danisec/portofolio-wisnuprawira.git
 
-## Deploy on Vercel
+   cd portofolio-wisnuprawira
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Install the dependencies:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+   ```bash
+    pnpm install
+   ```
+
+3. Start the development server:
+
+   ```bash
+   pnpm run dev
+   ```
+
+4. Build the project:
+
+   ```bash
+    pnpm run build
+   ```
+
+5. Start the production server:
+
+   ```bash
+    pnpm run start
+   ```
+
+## Usage
+
+- Access the application in your browser at `http://localhost:3000`.
+
+## Project Structure
+
+- **public**: Contains static files.
+  - **images**: Contains the images.
+    - **logo**: Contains the logo images.
+    - **profile**: Contains the profile images.
+    - **showcase**: Contains the showcase images.
+  - **resume**: Contains the resume files.
+- **src**: Contains the source code.
+  - **components**: Contains the components.
+  - **pages**: Contains the pages.
+  - **data**: Contains the data.
+  - **utils**: Contains the utility functions.
