@@ -204,7 +204,8 @@ function Showcase() {
                             ['bg-indigo-600 py-3'],
                             ['hover:bg-indigo-700'],
                           )}
-                          href={'/'}
+                          href={showcases[isOpen].liveDemo as string}
+                          target="_blank"
                         >
                           <BrowserIcon $className="w-5 h-5 size-5 dark:text-white" />
                           Live Demo

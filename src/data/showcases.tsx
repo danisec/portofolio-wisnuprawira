@@ -17,7 +17,7 @@ interface ShowcaseItem {
 
 const showcases = (theme: 'light' | 'dark'): ShowcaseItem[] => [
   {
-    image: '/images/showcase/showcase-banner.png',
+    image: '/images/showcase/stock.wisnuprawira.xyz.jpeg',
     title: 'Stock+',
     alt: 'Stock+',
     icons: [
@@ -34,10 +34,10 @@ const showcases = (theme: 'light' | 'dark'): ShowcaseItem[] => [
     ],
     description: 'Create a website to determine which stocks are the best by using the AHP method.',
     github: 'https://github.com/Wisnuprawira/Stock-.git',
-    liveDemo: '/',
+    liveDemo: 'https://stock.wisnuprawira.xyz',
   },
   {
-    image: '/images/showcase/showcase-banner.png',
+    image: '/images/showcase/pos.wisnuprawira.xyz.jpeg',
     title: 'POS Website',
     alt: 'POS Website',
     icons: [
@@ -60,31 +60,10 @@ const showcases = (theme: 'light' | 'dark'): ShowcaseItem[] => [
     description:
       'Created a web-based Point of Sale (POS) application designed to streamline business operations with features like inventory management, sales tracking, and reporting.',
     github: 'https://github.com/Wisnuprawira/tugas_akhir_eduwork',
-    liveDemo: '/',
+    liveDemo: 'https://pos.wisnuprawira.xyz/login',
   },
   {
-    image: '/images/showcase/showcase-banner.png',
-    title: 'Library',
-    alt: 'Library',
-    icons: [
-      {
-        id: 'laravel',
-        icon: <LaravelStack $className="w-6 h-6 dark:text-white fill-current" />,
-        name: 'Laravel',
-      },
-      {
-        id: 'mysql',
-        icon: <MysqlStack $className="w-6 h-6 dark:text-white fill-current" />,
-        name: 'MySQL',
-      },
-    ],
-    description:
-      'Developed a website to manage the library at Eduwork. The library is used to store Eduwork library book data.',
-    github: 'https://github.com/ulyazen/eduwork-laravel-vue/tree/wisnu',
-    liveDemo: '/',
-  },
-  {
-    image: '/images/showcase/showcase-banner.png',
+    image: '/images/showcase/pig.wisnuprawira.xyz.jpeg',
     title: 'Profile Indah Gypsum',
     alt: 'Profile Indah Gypsum',
     icons: [
@@ -112,7 +91,7 @@ const showcases = (theme: 'light' | 'dark'): ShowcaseItem[] => [
     ],
     description: `Built a website for Indah Gypsum's company profile. The website is used as a website interface for Profile Indah Gypsum.`,
     github: 'https://github.com/Wisnuprawira/Company_Profile.git',
-    liveDemo: '/',
+    liveDemo: 'https://pig.wisnuprawira.xyz',
   },
   {
     image: '/images/showcase/showcase-banner.png',
@@ -135,7 +114,7 @@ const showcases = (theme: 'light' | 'dark'): ShowcaseItem[] => [
     liveDemo: '/',
   },
   {
-    image: '/images/showcase/showcase-banner.png',
+    image: '/images/showcase/toko-online.wisnuprawira.xyz.jpeg',
     title: 'Marketplace (PHP)',
     alt: 'Marketplace (PHP)',
     icons: [
@@ -152,7 +131,7 @@ const showcases = (theme: 'light' | 'dark'): ShowcaseItem[] => [
     ],
     description: `The application enables users to browse products, manage carts, and complete purchases through a straightforward interface, delivering a smooth online shopping experience.`,
     github: 'https://github.com/Wisnuprawira/toko-online',
-    liveDemo: '/',
+    liveDemo: 'https://toko-online.wisnuprawira.xyz',
   },
 ];
 
